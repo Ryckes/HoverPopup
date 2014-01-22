@@ -1,0 +1,52 @@
+#info {
+	position:absolute;
+	display:none; 
+	width:359px;
+	/* It is important to define this width */
+	z-index:500; 
+	padding:0;
+}
+
+#infoContents {
+	 float:left;
+	 width:305px;
+	 min-height:120px;
+	 background-color:#262626; /* This color is the one used in the arrows! */
+	 margin:0; 
+	 padding:15px; 
+	 color:#FFFFFF;
+
+	 border-radius:15px;
+}
+
+#infoName {
+	 color:#BF3731;
+	 font-weight:bold;
+}
+
+#infoDescription {
+	 margin-left:10px;
+	 border-left:2px solid #BF3731;
+	 padding-left:20px;
+	 padding-right:20px;
+	 text-align: justify;
+}
+
+#infoExtra {
+	font-family:Helvetica;
+}
+
+#leftArrow {
+	 float:left; 
+	 margin:0; 
+	 margin-top:50px;
+	 width:24px;
+}
+
+#rightArrow {
+	 float:left;
+	 margin:0; 
+	 margin-top:50px; 
+	 display:none;
+	 width:24px;
+}
